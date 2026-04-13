@@ -3,56 +3,104 @@ permalink: /
 title: ""
 excerpt: ""
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
+<span class="anchor" id="about-me"></span>
 
-<span class='anchor' id='about-me'></span>
+I am **Haiying Xu**, an undergraduate student in Computer Science and Technology at **Nankai University**, and an incoming **MPhil student at The Hong Kong University of Science and Technology (Guangzhou)**. My recent work focuses on multimodal reasoning, post-training for MLLMs, and scientific exploration agents.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+My long-term research interests include:
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+- MLLM post-training and reinforcement learning
+- Multi-image reasoning and evidence composition
+- Think-with-image and executable intermediate reasoning
+- Latent-space reasoning for multimodal problems
+- Agentic workflows for scientific discovery
 
+You can reach me via [email](mailto:2212180@mail.nankai.edu.cn) or find my code on [GitHub](https://github.com/cyborvirtue).
 
-# 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+# News
 
-# 📝 Publications 
+- *2026.09 (expected)*: I will join **HKUST(GZ)** as an MPhil student in the Red Bird MPhil Program.
+- *2026.01 - 2026.04*: Research intern at the **Language and Intelligence Lab, HKUST(GZ)**, working on multi-image reasoning, MLLM post-training, and scientific discovery agents.
+- *2025.06 - 2025.10*: Conducted summer research in the **Lab of MLLMs, HKUST(GZ)** on latent-space auxiliary construction for multimodal geometric reasoning.
+- *2025.01 - 2025.06*: Research intern at the **Human Language Technology Lab, Nankai University**, leading the EchoVoices project.
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+# Publications
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2026</div><img src='images/500x300.png' alt="LatentGeo cover" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+[LatentGeo: Learnable Auxiliary Constructions in Latent Space for Multimodal Geometric Reasoning](https://arxiv.org/abs/2603.12166)
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+**Haiying Xu**, collaborators omitted here for brevity
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- First author.
+- Focuses on auxiliary-construction reasoning for multimodal geometry without relying on external geometry tools.
+- Planned submission target: **ECCV 2026**.
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NSMMSC 2025</div><img src='images/500x300.png' alt="EchoVoices cover" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
-# 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+[EchoVoices: Preserving Generational Voices and Memories for Seniors and Children](https://arxiv.org/abs/2507.15221)
 
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+**Haiying Xu**, collaborators omitted here for brevity
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+- First author.
+- Accepted at **NSMMSC 2025**.
+- Builds an integrated system for non-standard speech recognition, synthesis, and conversational interaction.
+</div>
+</div>
 
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+# Research Experience
+
+## Language and Intelligence Lab, HKUST(GZ)
+
+*Research Intern | Supervisor: Chengwei Qin | 2026.01 - 2026.04*
+
+- Studied bottlenecks of MLLMs in real-world multi-image reasoning, with emphasis on evidence selection, cross-image correspondence, and evidence composition.
+- Investigated MLLM post-training and tool use by analyzing agentic multimodal systems such as DeepEyesV2.
+- Explored agent frameworks for scientific discovery, focusing on memory-augmented idea generation, grounded verification, and self-evolving workflows.
+
+## Lab of MLLMs, HKUST(GZ)
+
+*Summer Research | Supervisor: Xuming Hu | 2025.06 - 2025.10*
+
+- Proposed **LatentGeo**, a latent-space framework for auxiliary-construction reasoning in multimodal geometry.
+- Built the **GeoAux** benchmark and a 30K geometry chain-of-thought dataset.
+- Designed a training pipeline combining supervised fine-tuning and latent-aware reinforcement learning.
+
+## Human Language Technology Lab, Nankai University
+
+*Research Intern | Supervisor: Yong Qin | 2025.01 - 2025.06*
+
+- Led **EchoVoices**, targeting robust speech understanding and generation for elderly and child users.
+- Improved Whisper with a k-NN retrieval module for non-standard speech recognition.
+- Built an interactive LLM agent with dynamic persona cards and a RAG pipeline for personalized dialogue.
+
+# Industry Experience
+
+## Inkcore
+
+*AI-Service Team Member, RAG Module Lead | 2025.02 - 2025.08*
+
+- Led the RAG module for a multi-agent vertical content generation platform.
+- Built document-grounded semantic question answering and ComfyUI-based generation workflows.
+- Helped the project win 1st Prize in the 2025 University Innovation and Entrepreneurship Competition.
+
+# Education
+
+- **Nankai University**, B.Eng. in Computer Science and Technology, *2022.09 - 2026.06*, Tianjin, China.
+- **The Hong Kong University of Science and Technology (Guangzhou)**, Incoming MPhil Student, *starting 2026.09*, Guangzhou, China.
+
+# Skills
+
+- **LLM Training**: PyTorch, Hugging Face, LoRA, verl, MS-Swift, FlashAttention, PPO, DPO, GRPO.
+- **Multimodal and Speech Models**: CLIP, BLIP-2, LLaVA, Qwen-VL, InternVL, Whisper, VITS, Stable Diffusion.
+- **RAG and Agents**: LangChain, LlamaIndex, FAISS, Milvus, Function Calling, ReAct, Multi-Agent systems.
+- **Programming**: Python, C/C++, Linux, Docker, Git, LaTeX.

@@ -1,4 +1,3 @@
-
 <h1 align="center">
 AcadHomepage
 </h1>
@@ -8,12 +7,11 @@ AcadHomepage
 [![](https://img.shields.io/github/stars/RayeRen/acad-homepage.github.io)](https://github.com/RayeRen/acad-homepage.github.io)
 [![](https://img.shields.io/github/forks/RayeRen/acad-homepage.github.io)](https://github.com/RayeRen/acad-homepage.github.io)
 [![](https://img.shields.io/github/issues/RayeRen/acad-homepage.github.io)](https://github.com/RayeRen/acad-homepage.github.io)
-[![](https://img.shields.io/github/license/RayeRen/acad-homepage.github.io)](https://github.com/RayeRen/acad-homepage.github.io/blob/main/LICENSE)  | [English README](../README.md) 
+[![](https://img.shields.io/github/license/RayeRen/acad-homepage.github.io)](https://github.com/RayeRen/acad-homepage.github.io/blob/main/LICENSE)  | [English README](../README.md)
 
 </div>
 
-<p align="center">一个现代、响应式的个人学术主页</p>
-
+<p align="center">一个现代、响应式的学术个人主页</p>
 
 <p align="center">
     <br>
@@ -21,47 +19,54 @@ AcadHomepage
     <br>
 </p>
 
-一些例子：
-- [样例页面](https://rayeren.github.io/acad-homepage.github.io/)
-- [作者的个人主页](https://rayeren.github.io/)
+一些示例：
+- [演示页面](https://rayeren.github.io/acad-homepage.github.io/)
+- [作者个人主页](https://rayeren.github.io/)
 
-## 主要特点
-- **自动更新谷歌学术引用**: 借助谷歌学术爬虫和github action功能，本仓库可以自动更新作者的引用数和论文引用数。
-- **支持谷歌Analytics**: 你可以通过简单的配置来实现使用谷歌Analytics跟踪网页的流量。
-- **响应式的**: 此主页会针对不同的屏幕尺寸自动调整布局。
-- **美观而简约**: 此主页美观而简约，适合个人学术主页的搭建。
-- **搜索引擎优化**: 搜索引擎优化 (SEO) 帮助搜索引擎轻松找到您在主页上发布的信息，然后将其与类似网站进行排名，并获得排名优势。
+## 核心功能
+- **自动更新 Google Scholar 引用统计**：借助 Google Scholar 爬虫和 GitHub Actions，本仓库可以自动更新作者总引用数和单篇论文引用数。
+- **支持 Google Analytics**：只需简单配置，就可以跟踪主页访问流量。
+- **响应式设计**：主页会自动适配不同屏幕尺寸和视口。
+- **美观且简洁**：整体风格简洁清晰，适合学术个人主页。
+- **SEO**：搜索引擎优化（SEO）有助于搜索引擎更容易发现你在主页上发布的信息，并与同类网站进行排序比较。
 
 ## 快速开始
 
-1. Fork本仓库到`USERNAME/USERNAME.github.io`，其中`USERNAME`是你的github用户名。
-1. 配置谷歌学术引用爬虫：
-    1. 在你的谷歌学术引用页面的url里找到你的谷歌学术ID：例如，在url https://scholar.google.com/citations?user=SCHOLAR_ID 中，`SCHOLAR_ID`部分即为你的谷歌学术ID。
-    1. 在github本仓库页面的`Settings -> Secrets -> Actions -> New repository secret`中，添加`GOOGLE_SCHOLAR_ID`变量：`name=GOOGLE_SCHOLAR_ID`、`value=SCHOLAR_ID`。
-    1. 在github本仓库页面的`Action`中，点击*"I understand my workflows, go ahead and enable them"*启用workflows by clicking *"。本action将会谷歌学术引用的统计量数据`gs_data.json`到本仓库的`google-scholar-stats`分支中。每次修改main分支的内容会触发该action。本action也会在每天08:00 UTC定时触发。
-1. 使用 [favicon-generator](https://redketchup.io/favicon-generator)生成favicon（网页icon文件），并下载所有文件到`REPO/images`。
-1. 修改主页配置文件[_config.yml](../_config.yml):
-    1. `title`: 主页标题
-    1. `description`: 主页的描述
-    1. `repository`: USER_NAME/REPO_NAME  
-    1. `google_analytics_id` (可选的): 谷歌Analytics ID
-    1. SEO相关的键值 (可选的): 从搜索引擎的控制台里获得对应的ID (例如：Google, Bing and Baidu)，然后粘贴到这里。
-    1. `author`: 主页作者信息，包括其他网页、Email、所在城市、大学等。
-    1. `google_scholar_stats_use_cdn`: 使用CDN读取存储于`https://raw.githubusercontent.com/`的google scholar引用统计数据，防止中国大陆地区被墙无法访问的情况。但是CDN有缓存，因此`google_scholar_stats_use_cdn : True`时，引用数据更新会有延迟。
-    1. 更多的配置信息在注释中有详细描述。
-1. 将你的主页内容添加到 [_pages/about.md](../_pages/about.md).
-1. 你的主页将会被部署到`https://USERNAME.github.io`.
+1. Fork 这个仓库，并将仓库重命名为 `USERNAME.github.io`，其中 `USERNAME` 是你的 GitHub 用户名。
+1. 配置 Google Scholar 引用统计爬虫：
+   1. 在你的 Google Scholar 主页 URL 中找到 scholar ID。例如：`https://scholar.google.com/citations?user=SCHOLAR_ID`，其中 `SCHOLAR_ID` 就是你的 Google Scholar ID。
+   1. 在仓库网页的 `Settings -> Secrets -> Actions -> New repository secret` 中创建变量 `GOOGLE_SCHOLAR_ID`，其中 `name=GOOGLE_SCHOLAR_ID`，`value=SCHOLAR_ID`。
+   1. 打开仓库网页的 `Actions` 页面，点击 `I understand my workflows, go ahead and enable them` 启用工作流。该 GitHub Action 会在仓库的 `google-scholar-stats` 分支生成 Google Scholar 引用统计文件 `gs_data.json`。当你更新主分支时，这个 Action 会自动触发；它也会在每天 `08:00 UTC` 自动运行一次。
+1. 使用 [favicon-generator](https://redketchup.io/favicon-generator) 生成 favicon，并将下载得到的所有文件放到 `REPO/images` 目录下。
+1. 修改主页配置文件 [`_config.yml`](../_config.yml)：
+   1. `title`：主页标题。
+   1. `description`：主页描述。
+   1. `repository`：`USER_NAME/REPO_NAME`。
+   1. `google_analytics_id`（可选）：Google Analytics ID。
+   1. SEO 相关字段（可选）：从搜索引擎站长平台获取，例如 Google、Bing、Baidu。
+   1. `author`：主页作者信息，包括其他网站、邮箱、城市、学校等。
+   1. 更多配置细节请查看文件中的注释。
+1. 将你的主页内容写入 [`_pages/about.md`](../_pages/about.md)。
+   1. 你可以像普通 Jekyll 页面一样使用 `HTML + Markdown` 混合语法。
+   1. 你可以用带有 `show_paper_citations` 类和 `data` 属性的 `<span>` 标签显示某篇论文的引用数。把 `data` 设置为该论文的 Google Scholar 论文 ID。例如：
+      ```html
+      <span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span>
+      ```
+      > 问：如何获得 Google Scholar 论文 ID？  
+      > 答：进入你的 Google Scholar 主页，点击论文标题，在 URL 中找到 `citation_for_view=XXXX`，其中 `XXXX` 就是所需的论文 ID。
+1. 你的主页会发布到 `https://USERNAME.github.io`。
 
 ## 本地调试
 
-1. 使用`git clone`将本项目克隆到本地。
-1. 安装Jekyll的构建环境，包括`Ruby`、`RubyGems`、`GCC`和`Make`。可参考[该教程](https://jekyllrb.com/docs/installation/#requirements)。
-1. 运行 `bash run_server.sh` 来启动Jekyll实时重载服务器。
-1. 在浏览器里打开 [http://127.0.0.1:4000](http://127.0.0.1:4000)。如果你修改了网页的源码，服务器会自动重新编译并刷新页面。
-1. 当你修改完毕你的页面以后, 使用`git`命令，`commit`你的改动并`push`到你的github仓库中。
+1. 使用 `git clone` 将你的仓库克隆到本地。
+1. 根据 [安装指南](https://jekyllrb.com/docs/installation/#requirements) 安装 Jekyll 构建环境，包括 `Ruby`、`RubyGems`、`GCC` 和 `Make`。
+1. 运行 `bash run_server.sh` 启动 Jekyll 实时重载服务器。
+1. 在浏览器中打开 `http://127.0.0.1:4000`。
+1. 如果你修改了网站源码，实时重载服务器会自动刷新页面。
+1. 完成修改后，使用 `git` 提交并推送你的更改到远程仓库。
 
-# Acknowledges
+# 致谢
 
-- AcadHomepage incorporates Font Awesome, which is distributed under the terms of the SIL OFL 1.1 and MIT License.
-- AcadHomepage is influenced by the github repo [mmistakes/minimal-mistakes](https://github.com/mmistakes/minimal-mistakes), which is distributed under the MIT License.
-- AcadHomepage is influenced by the github repo [academicpages/academicpages.github.io](https://github.com/academicpages/academicpages.github.io), which is distributed under the MIT License.
+- AcadHomepage 集成了 Font Awesome，其发布协议为 SIL OFL 1.1 和 MIT License。
+- AcadHomepage 受 GitHub 仓库 [mmistakes/minimal-mistakes](https://github.com/mmistakes/minimal-mistakes) 影响，该仓库使用 MIT License。
+- AcadHomepage 受 GitHub 仓库 [academicpages/academicpages.github.io](https://github.com/academicpages/academicpages.github.io) 影响，该仓库使用 MIT License。
