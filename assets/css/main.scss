@@ -40,15 +40,111 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
+/* ==========================================================================
+   Section Title Styling — accent left border + icon color
+   ========================================================================== */
+
+.page__content > h1 {
+    display: flex;
+    align-items: center;
+    gap: 0.35em;
+    padding-left: 0.6em;
+    padding-bottom: 0.45em;
+    border-bottom: 2px solid #e2e8f0;
+    border-left: 4px solid #2563eb;
+    margin-top: 2em;
+    font-size: 1.35em;
+    color: #1e293b;
+}
+
+/* First h1 (About Me) — no top margin */
+.page__content > h1:first-of-type {
+    margin-top: 0;
+}
+
+
+/* ==========================================================================
+   Card-style content sections
+   ========================================================================== */
+
+.page__content {
+    /* Card wrapper for each section block */
+    > h1 ~ h2,
+    > h1 ~ p,
+    > h1 ~ ul,
+    > h1 ~ ol,
+    > h1 ~ .paper-box {
+        /* inherits inside section-card */
+    }
+}
+
+/* Section card containers */
+.section-card {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 1.5em 1.8em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+    transition: box-shadow 0.2s ease;
+
+    &:hover {
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    }
+
+    /* h2 inside card — lighter style with subtle left accent */
+    h2 {
+        font-size: 1.1em;
+        color: #334155;
+        padding-bottom: 0.3em;
+        border-bottom: 1px solid #e2e8f0;
+        margin-top: 1.5em;
+
+        &:first-of-type {
+            margin-top: 0;
+        }
+    }
+
+    /* list items inside card — slightly tighter */
+    ul {
+        margin-block-start: 0.3em;
+    }
+
+    li {
+        margin-bottom: 0.35em;
+    }
+
+    /* italic time ranges */
+    em {
+        color: #64748b;
+    }
+}
+
+/* Smooth scroll for the whole page */
+html {
+    scroll-behavior: smooth;
+}
+
+
 .paper-box {
     display: flex;
     justify-content: left;
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    border-bottom: 1px #efefef solid;
-    padding: 2em 0 2em 0;
-    
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 1.5em;
+    margin-bottom: 1.2em;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+    transition: box-shadow 0.25s ease, transform 0.25s ease;
+
+    &:hover {
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        transform: translateY(-2px);
+    }
 
     .paper-box-image{
         justify-content: center;
@@ -57,16 +153,17 @@
         order: 2;
         img {
             max-width: 400px;
-            box-shadow: 3px 3px 6px #888;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+            border-radius: 6px;
             object-fit: cover;
         }
     }
-    
+
     .paper-box-text{
         max-width: 100%;
         order: 1;
     }
-    
+
     @include breakpoint($medium) {
         .paper-box-image{
             justify-content: left;
@@ -74,7 +171,7 @@
             max-width: 40%;
             order: 1;
         }
-        
+
         .paper-box-text{
             justify-content: left;
             padding-left: 2em;
@@ -98,12 +195,14 @@ h1:before, .anchor:before {
 }
 
 .badge {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 0.2rem 0.75rem;
     position: absolute;
     margin-top: .5em;
     margin-left: -.5em;
     color: white;
-    background-color: #00369f;
-    font-size: .8em;
+    background: linear-gradient(135deg, #2563eb, #1d4ed8);
+    font-size: .75em;
+    font-weight: 600;
+    border-radius: 4px;
+    letter-spacing: 0.02em;
 }

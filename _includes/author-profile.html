@@ -19,7 +19,7 @@
       {% if author.email %}
         <li class="author__meta-item">
           <i class="fas fa-fw fa-envelope" aria-hidden="true"></i>
-          <a href="mailto:{{ author.email }}">{{ author.email }}</a>
+          <a href="#" class="copy-email" data-email="{{ author.email }}" onclick="navigator.clipboard.writeText(this.dataset.email);this.textContent='Copied!';setTimeout(()=>{this.textContent='Mail'},1500);return false;">Mail</a>
         </li>
       {% endif %}
       {% if author.location %}
@@ -31,7 +31,7 @@
       {% if author.github %}
         <li class="author__meta-item">
           <i class="fab fa-fw fa-github" aria-hidden="true"></i>
-          <a href="https://github.com/{{ author.github }}">github.com/{{ author.github }}</a>
+          <a href="https://github.com/{{ author.github }}">GitHub</a>
         </li>
       {% endif %}
       {% if author.googlescholar %}
