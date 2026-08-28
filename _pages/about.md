@@ -37,17 +37,19 @@ If you are interested in my work or would like to chat about research, feel free
 
 # &#x1F4D6; Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2026</div><img src='images/latentgeo-cover.png' alt="LatentGeo cover" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2026</div><img src='images/Yourllm.png' alt="Your LLM, Your Style cover" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[LatentGeo: Learnable Auxiliary Constructions in Latent Space for Multimodal Geometric Reasoning](https://arxiv.org/abs/2603.12166)
+[Your LLM, Your Style: Behavioral Mode Axes for LLM Behavioral Control](https://arxiv.org/abs/2608.10703)
 
-**Haiying Xu**\*, Zihan Wang\*, Song Dai\*, Zhengxuan Zhang, Kairan Dou, Xuming Hu
+Haoze Liu, Run Liu, **Haiying Xu**, et al.<br>
+*arXiv 2026 · Submitted to AAAI 2027*
 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-text' markdown="1">
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2026</div><img src='images/See2think.png' alt="See2Think cover" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
 [See2Think: Do Multimodal Models Really Use Intermediate Visual States?](https://arxiv.org/abs/2607.26769)
 
@@ -57,12 +59,12 @@ Siyu Yan\*, Zhuoran Yan\*, **Haiying Xu**\*, et al.<br>
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-text' markdown="1">
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2026</div><img src='images/latentgeo-cover.png' alt="LatentGeo cover" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
-[Your LLM, Your Style: Behavioral Mode Axes for LLM Behavioral Control](https://arxiv.org/abs/2608.10703)
+[LatentGeo: Learnable Auxiliary Constructions in Latent Space for Multimodal Geometric Reasoning](https://arxiv.org/abs/2603.12166)
 
-Haoze Liu, Run Liu, **Haiying Xu**, et al.<br>
-*arXiv 2026 · Submitted to AAAI 2027*
+**Haiying Xu**\*, Zihan Wang\*, Song Dai\*, Zhengxuan Zhang, Kairan Dou, Xuming Hu
 
 </div>
 </div>
