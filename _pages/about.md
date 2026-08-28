@@ -14,7 +14,7 @@ redirect_from:
 
 <div class="section-card" markdown="1">
 
-I am a senior undergraduate student at **Nankai University**, and an incoming **MPhil student at HKUST(GZ)** (Red Bird MPhil Program, starting Fall 2026). I previously interned at the **Shanghai AI Laboratory**, where I worked with [Yihao Liu](https://lyh-18.github.io/) ([Google Scholar](https://scholar.google.com/citations?hl=en&user=WRIYcNwAAAAJ)).
+I am a senior undergraduate student at **Nankai University**, and an incoming **MPhil student at HKUST(GZ)** (Red Bird MPhil Program, starting Fall 2026). I previously interned at the **Shanghai AI Laboratory**, where I worked with [Yihao Liu](https://lyh-18.github.io/).
 
 My research interests lie in **Agentic AI, LLM Reasoning and MLLMs**. I am also broadly interested in agentic RL and its applications in scientific discovery.
 
@@ -28,8 +28,8 @@ If you are interested in my work or would like to chat about research, feel free
 
 <div class="section-card" markdown="1">
 
+- **The Hong Kong University of Science and Technology (Guangzhou)**, MPhil Student, *starting 2026.08*, Guangzhou, China.
 - **Nankai University**, B.Eng. in Computer Science and Technology, *2022.09 - 2026.06*, Tianjin, China.
-- **The Hong Kong University of Science and Technology (Guangzhou)**, Incoming MPhil Student, *starting 2026.09*, Guangzhou, China.
 
 </div>
 
@@ -43,6 +43,26 @@ If you are interested in my work or would like to chat about research, feel free
 [LatentGeo: Learnable Auxiliary Constructions in Latent Space for Multimodal Geometric Reasoning](https://arxiv.org/abs/2603.12166)
 
 **Haiying Xu**\*, Zihan Wang\*, Song Dai\*, Zhengxuan Zhang, Kairan Dou, Xuming Hu
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-text' markdown="1">
+
+[See2Think: Do Multimodal Models Really Use Intermediate Visual States?](https://arxiv.org/abs/2607.26769)
+
+Siyu Yan\*, Zhuoran Yan\*, **Haiying Xu**\*, et al.<br>
+*arXiv 2026 · Submitted to AAAI 2027*
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-text' markdown="1">
+
+[Your LLM, Your Style: Behavioral Mode Axes for LLM Behavioral Control](https://arxiv.org/abs/2608.10703)
+
+Haoze Liu, Run Liu, **Haiying Xu**, et al.<br>
+*arXiv 2026 · Submitted to AAAI 2027*
 
 </div>
 </div>
