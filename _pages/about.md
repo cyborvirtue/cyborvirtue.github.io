@@ -14,9 +14,9 @@ redirect_from:
 
 <div class="section-card" markdown="1">
 
-I am a senior undergraduate student at **Nankai University**, and an incoming **MPhil student at HKUST(GZ)** (Red Bird MPhil Program, starting Fall 2026). I previously interned at the **Language and Intelligence Lab** and the **Lab of MLLMs** at HKUST(GZ), where I worked with [Chengwei Qin](https://qincw.github.io/).
+I am a senior undergraduate student at **Nankai University**, and an incoming **MPhil student at HKUST(GZ)** (Red Bird MPhil Program, starting Fall 2026). I previously interned at the **Shanghai AI Laboratory**, where I worked with [Yihao Liu](https://lyh-18.github.io/) ([Google Scholar](https://scholar.google.com/citations?hl=en&user=WRIYcNwAAAAJ)).
 
-My research interests lie in **MLLM post-training**, **multimodal reinforcement learning**, and **latent-space reasoning**. I am also broadly interested in agentic RL and its applications in scientific discovery.
+My research interests lie in **Agentic AI, LLM Reasoning and MLLMs**. I am also broadly interested in agentic RL and its applications in scientific discovery.
 
 If you are interested in my work or would like to chat about research, feel free to drop me an [email](mailto:2212180@mail.nankai.edu.cn)!
 
@@ -47,7 +47,7 @@ If you are interested in my work or would like to chat about research, feel free
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NSMMSC 2025</div><img src='images/echovoices-cover.png' alt="EchoVoices cover" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NCMMSC 2025</div><img src='images/echovoices-cover.png' alt="EchoVoices cover" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [EchoVoices: Preserving Generational Voices and Memories for Seniors and Children](https://arxiv.org/abs/2507.15221)
