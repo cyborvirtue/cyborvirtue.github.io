@@ -14,7 +14,7 @@ redirect_from:
 
 <div class="section-card" markdown="1">
 
-I am a senior undergraduate student at **Nankai University**, and an incoming **MPhil student at HKUST(GZ)** (Red Bird MPhil Program, starting Fall 2026). I previously interned at the **Shanghai AI Laboratory**, where I worked with [Yihao Liu](https://lyh-18.github.io/).
+I completed my B.Eng. at **Nankai University** and am now an **MPhil student at HKUST(GZ)** (Red Bird MPhil Program). I previously interned at the **Shanghai AI Laboratory**, where I worked with [Yihao Liu](https://lyh-18.github.io/).
 
 My research interests lie in **Agentic AI, LLM Reasoning and MLLMs**. I am also broadly interested in agentic RL and its applications in scientific discovery.
 
