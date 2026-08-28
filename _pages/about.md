@@ -42,7 +42,7 @@ If you are interested in my work or would like to chat about research, feel free
 
 [Your LLM, Your Style: Behavioral Mode Axes for LLM Behavioral Control](https://arxiv.org/abs/2608.10703)
 
-Haoze Liu, Run Liu, **Haiying Xu**, et al.<br>
+Haoze Liu\*, Run Liu\*, **Haiying Xu**, et al.<br>
 *arXiv 2026 · Submitted to AAAI 2027*
 
 </div>
