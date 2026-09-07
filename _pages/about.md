@@ -14,11 +14,11 @@ redirect_from:
 
 <div class="section-card" markdown="1">
 
-I completed my B.Eng. at **Nankai University** and am now an **MPhil student at HKUST(GZ)** (Red Bird MPhil Program). I previously interned at the **Shanghai AI Laboratory**, where I worked with [Yihao Liu](https://lyh-18.github.io/).
+I completed my B.Eng. at **Nankai University** and am now an **MPhil student at HKUST(GZ)** (Red Bird MPhil Program). I previously interned at the **Shanghai AI Laboratory**, where I worked with [Yihao Liu](https://lyh-18.github.io/). I am currently a member of [LARK Lab](https://lark-lab-hkustgz.github.io/), advised by [Prof. Zhijiang Guo](https://cartus.github.io/).
 
 My research interests lie in **Agentic AI, LLM Reasoning and MLLMs**. I am also broadly interested in agentic RL and its applications in scientific discovery.
 
-If you are interested in my work or would like to chat about research, feel free to drop me an [email](mailto:2212180@mail.nankai.edu.cn)!
+If you are interested in my work or would like to chat about research, feel free to drop me an [email](mailto:hxu827@connect.hkust-gz.edu.cn)!
 
 </div>
 
